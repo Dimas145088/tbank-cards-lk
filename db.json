@@ -1,0 +1,17 @@
+{
+  "todos": [
+    {
+      "id": "card-1",
+      "cardNumber": "2200 1100 4455 6677",
+      "balance": 300000,
+      "currency": "RUB"
+    },
+    {
+      "id": "card-2",
+      "cardNumber": "4000 5555 8888 9999",
+      "balance": 850,
+      "currency": "$"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
