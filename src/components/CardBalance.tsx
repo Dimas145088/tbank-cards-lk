@@ -28,7 +28,7 @@ export function CardBalance({ card }: CardBalanceProps) {
       </div>
 
       <div style={{ fontSize: '16px', letterSpacing: '2px', color: '#eee' }}>
-        {card.cardNumber} ПРОВЕРЕНО ГИТОМ!
+        {card.cardNumber} ТЕСТ ПОЛНОГО ЦИКЛА git!
       </div>
     </div>
   );
