@@ -28,7 +28,7 @@ export function CardBalance({ card }: CardBalanceProps) {
       </div>
 
       <div style={{ fontSize: '16px', letterSpacing: '2px', color: '#eee' }}>
-        {card.cardNumber}
+        {card.cardNumber} ПРОВЕРЕНО ГИТОМ!
       </div>
     </div>
   );
