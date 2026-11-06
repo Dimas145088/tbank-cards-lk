@@ -24,11 +24,11 @@ export function CardBalance({ card }: CardBalanceProps) {
       
       {/* 🖥️ Печатаем живое мясо данных, которое притечёт по кабелю пропсов! */}
       <div style={{ fontSize: '32px', fontWeight: 'bold', marginBottom: '20px' }}>
-        {card.balance} {Currency[card.currency as keyof typeof Currency] || card.currency}
+        {card.balance.toLocaleString('ru-RU')} {Currency[card.currency as keyof typeof Currency] || card.currency}
       </div>
 
       <div style={{ fontSize: '16px', letterSpacing: '2px', color: '#eee' }}>
-        {card.cardNumber} ПРОВЕРЕНО ГИТОМ!
+        {card.cardNumber} 
       </div>
     </div>
   );
